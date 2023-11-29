@@ -4,29 +4,90 @@
         <meta charset="Utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>streamingmedia</title>
+        <title>photogallery</title>
         <link href="stylesheet.css" rel="stylesheet">
     </head>
     <body>
         <main>
+            <h1>TK PHOTOGRAPHY</h1>
             <nav>
                 <ul>
-                    <li id="title"><a href="index.html">MuzakMaker</a></li>
-                    <li><a href="value"></a>Trending Songs</a></li>
-                    <li><a href="value"></a>Your playlists</a></li>
-                    <li><a href="value"></a>Curated Playlists</a></li>
-                    <li><img src="C:\Users\amb\OneDrive\Documents\School\GIT 337\angelagit337websitehost.github.io\streamingmedia\Streaming Media-20231030T173308Z-001\Assignment -- Streaming Media\images\duke-silver.png" alt="icon of duke-silver "></li>
+                    <li ><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            <section id="Jazz">
-                <h1>Smooth Jazz</h1>
-                <p>This station is dedicated to the soothing sounds of smooth jazz. This genre of commercially oriented crossover jazz became dominant in the 1980s and early 1990s.</p>
+            <section class="about">
+                <h2 id="about">About</h2>
+                <p>Hello!</p>
+                <p>I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world. </p>
             </section>
-            <section id="trending">
-                <h2>Trending Songs</h2>
+            <section >
+                <h2 id="gallery">GALLERY</h2>
+                <p>Here are some highlights of my work. The locations and year are in the caption. </p>
+                <div class="gallery">
+                    <figure>
+                        <img src="Chile.png" alt="picture of beach in Chile 2001">
+                        <figcaption>Chile, 2001</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="Guatemala.png" alt="picture of beach in Guatemala 1997">
+                        <figcaption>Guatemala, 1997</figcaption>
+                    </figure>
+                    <figure><img src="Hawaii.png" alt="picture of beach in Hawaii 2010">
+                        <figcaption>Hawaii, 2010</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="Iran.png" alt="picture of dessert in Iran 1999">
+                        <figcaption>Iran, 1999</figcaption>
+                    </figure>
+                    <figure><img src="Ireland.png" alt="picture of rolling hills in Ireland, 2012">
+                        <figcaption>Ireland, 2012</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="Italy.png" alt="picture of lake by the mountains in Italy, 2015">
+                        <figcaption>Italy, 2015</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="Moab-Desert.png" alt="picture of dessert in Moab Desert, 2020">
+                        <figcaption>Moab Desert, 2020</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="Rocky-Mountains.png" alt="picture of river cliffs in Rocky Mountains, 2009">
+                        <figcaption>Rocky Mountains, 2009</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="Switzerland.png" alt="picture of mountian valley in Switzerland, 2014">
+                        <figcaption>Switzerland, 2014</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="UK.png" alt="picture of rolling hills in UK, 2005">
+                        <figcaption>UK, 2005</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="USA.png" alt="picture of flower field in USA, 2021">
+                        <figcaption>USA, 2021</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="Wyoming.png" alt="picture of lake reflecting the mountains in Wyoming, 2021">
+                        <figcaption>Wyoming, 2021</figcaption>
+                    </figure>
+                </div>
             </section>
-            
+            <section class="contact">
+                <h2 id="contact">CONTACT</h2>
+                <p>Please fill out this form and I’ll connect with you soon.</p>
+                <form action="/action_page.php">
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name" value="Your Full Name"><br>
+                    <label for="email">Email</label><br>
+                    <input type="text" id="email" name="email" value="Enter Your email address"><br>
+                    <label for="message">Message</label><br>
+                    <input type="text" id="message" name="message" value="What can i help you with?"><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
         </main>
-        <footer></footer>
+        <footer><small>COPYRIGHT 2021 TK PHOTOGRAPHY</small></footer>
     </body>
 </html>
